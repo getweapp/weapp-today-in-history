@@ -1,0 +1,30 @@
+/**index.wxss**/
+.section{
+    margin:40rpx 0;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+}
+.logo{
+   width:240rpx; 
+   height:240rpx; 
+   border-radius:50%;
+}
+.section__title{
+    padding:20rpx 40rpx;
+    font-size:30rpx;
+    color:#999;
+}
+picker{
+    padding:40rpx;
+    font-size:36rpx;
+    background: #fff;
+    border-top:1px solid #eee;
+    border-bottom:1px solid #f1f1f1;
+}
+.btn-request{
+    margin:40rpx;
+    /*background: #2d5a87;
+    color:#fff;*/
+}

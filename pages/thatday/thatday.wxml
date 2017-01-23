@@ -1,0 +1,21 @@
+<!--pages/thatday/thatday.wxml-->
+<import src="../common/footer.wxml" />
+<view class="section">
+    <view class="section_title">那年 — {{month}}月{{day}}日</view>
+</view>
+
+<view class="list">
+    <block wx:for="{{data}}" wx:for-item="list" wx:key="e_id">
+        <view class="item" bindtap="detail" data-id="{{list.e_id}}">
+            <view class="item_m">
+                <view class="title">{{list.title}}</view>
+                <view class="date"><text class="icon icon-date"></text>{{list.date}}</view>
+            </view>
+            <view class="item_r">
+                <view class="icon icon-right"></view>
+            </view>
+        </view>
+    </block>
+</view>
+
+<template is="footer" />

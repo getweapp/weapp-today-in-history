@@ -1,0 +1,15 @@
+<!--pages/thatday/detail/detail.wxml-->
+<view class="container">
+    <view class="title">{{title}}</view>
+    <text class="content">{{content}}</text>
+    <block wx-if="{{hasPic}}">
+        <view class="picbox">
+            <image src="{{pic.url}}" class="pic_url"></image>
+            <view class="pic_title" wx-if="{{pic.pic_title}}">配图：{{pic.pic_title}}</view>
+        </view>
+    </block>
+    <view class="title" wx-if="{{!hasContent}}">
+        <view class="bigwarn">没有查询到相关结果</view>
+        <button type="primary" bindtap="backToList">返回列表</button>
+    </view>
+</view>

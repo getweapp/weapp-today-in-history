@@ -1,0 +1,59 @@
+/**person.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+}
+.avatar {
+  width: 240rpx;
+  height: 240rpx;
+  margin: 40rpx auto;
+  border-radius: 50%;
+}
+.block{
+  padding:30rpx 0;
+  background: #fff;
+  border-bottom:1px solid #f1f1f1;
+}
+.block:first-child{
+  border-top:1px solid #f1f1f1;
+}
+.block view{
+  display: inline-block;
+  width:50%;
+  box-sizing: border-box;
+}
+.block view:first-child{
+  padding-left:30rpx;
+}
+.block view:last-child{
+  padding-right:30rpx;
+  text-align: right;
+  color:#999;
+}
+.block view:first-child .icon{
+  display: inline-block;
+  margin-right:20rpx;
+  width:32px;
+  height:32px;
+  line-height:42px;
+  text-align:center;
+  color:#fff;
+  font-size:20px;
+  border-radius:4px;
+}
+.block view:first-child .icon-person{
+  background-color:#0cf;
+  line-height:36px;
+}
+.icon-sex{
+  background-color:#699;
+}
+.icon-country{
+  background-color:#f66;
+}
+.icon-province{
+  background-color:#3c9;
+}
+.icon-city{
+  background-color:#96c;
+}

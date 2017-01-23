@@ -1,0 +1,18 @@
+<!--index.wxml-->
+<view class="section flex">
+  <image class="logo" src="http://vinceok.com/demos/express/assets/logo.jpg"></image>
+</view>
+<view class="section">
+  <view class="section__title">请选择日期</view>
+  <picker mode="date" value="{{date}}"  start="2017-01-01" end="2017-12-31" bindchange="bindDateChange">
+    <view class="picker">
+      当前选择: {{date}}
+    </view>
+  </picker>
+  <view class="operation">
+    <button class="btn-request" type="primary" bindtap="search">立即查询</button>
+  </view>
+  <view class="page-footer warn">
+    小程序内点击状态栏可以返回顶部哦
+  </view>
+</view>

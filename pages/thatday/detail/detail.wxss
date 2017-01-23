@@ -1,0 +1,41 @@
+/* pages/thatday/detail/detail.wxss */
+page{
+    background: #fff;
+}
+.container{
+    padding:30rpx;
+}
+.title{
+    padding:30rpx 0;
+    font-size:16pt;
+    text-align:center;
+}
+.content{
+    line-height:1.6em;
+    color:#424242;
+}
+.picbox{
+    display: flex;
+    margin:30rpx 0;
+    padding:30rpx 0;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    border-top:1px dashed #d9d9d9;
+    border-bottom:1px dashed #d9d9d9;
+}
+.pic_url{
+    width:690rpx;
+    margin:0 30rpx;
+}
+.pic_title{
+    margin-top:20rpx;
+    font-size:13px;
+    color:#999;
+}
+.bigwarn{
+    margin:200rpx 0 60rpx;
+    font-size:16pt;
+    text-align:center;
+    color:#999;
+}
